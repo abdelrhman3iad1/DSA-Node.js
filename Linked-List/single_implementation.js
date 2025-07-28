@@ -11,6 +11,14 @@
  * Insert : O(n)
  * Delete : O(n)
  */
+
+/**
+ * space comlexity of linkedlist and array of type int32
+ * 
+ * linked list : 32bit (4bytes) + 1 pointer (usually 8 bits and depends on os) = 40 bit = 5 bytes
+ * double linked list : 32bit (4bytes) + 2 pointer  = 48bit = 6 bytes
+ * array: 32bit (4bytes) = 32bit = 4 bytes
+ */
 class Node {
     constructor(value){
         this.value = value,
