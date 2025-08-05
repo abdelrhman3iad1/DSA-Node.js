@@ -120,14 +120,16 @@ class LinkedList {
         return this.printList();
     }
 }
-const MyLinkedList = new LinkedList(1);
-MyLinkedList.append(5);
-MyLinkedList.append(10);
+// const MyLinkedList = new LinkedList(1);
+// MyLinkedList.append(5);
+// MyLinkedList.append(10);
 // MyLinkedList.append(50);
-MyLinkedList.prepend(155);
-MyLinkedList.insert(1,555);
+// MyLinkedList.prepend(155);
+// MyLinkedList.insert(1,555);
 
-MyLinkedList.remove(5);
+// MyLinkedList.remove(5);
 
-console.log(MyLinkedList.printList());
-console.log(MyLinkedList);
+// console.log(MyLinkedList.printList());
+// console.log(MyLinkedList);
+
+module.exports.Node = Node;
